@@ -1,0 +1,10 @@
+name "development"
+description "the master development branch"
+cookbook_versions({
+ "nginx" => "<= 1.1.0"
+})
+override_attributes({
+"nginx" =>{
+"liste"listen" =>["80","443"]n" =>["80","443"]
+}
+})
